@@ -1,0 +1,11 @@
+form * {
+    display: block;
+    margin-bottom: 10px; /* adicione uma margem inferior para separar os elementos */
+  }
+  
+  form button[type="submit"], 
+  form button[type="reset"] {
+    display: inline-block;
+    margin-right: 10px; /* adicione uma margem direita para separar os botões */
+  }
+  

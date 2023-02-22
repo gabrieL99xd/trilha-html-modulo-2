@@ -7,6 +7,10 @@ body {
     justify-content: center;
 }
 
+a {
+    text-decoration: none;
+  }
+  
 .wrapper {
     width: 1200px;
     display: flex;
@@ -35,4 +39,17 @@ body {
 .footer {
     background-color: rgb(99, 56, 240);
     min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
+table {
+    border-collapse: separate;
+    border-spacing: 10px;
+  }
+  
+  thead {
+    text-align: left;
+  }
